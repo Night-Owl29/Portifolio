@@ -1,0 +1,56 @@
+* {
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+}
+
+body {
+  background-color: #1E1E1E;
+}
+
+#Nome {
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+#img {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  width: 15%;
+}
+
+#info {
+  width: 750px;
+  height: 255px;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+#Bio {
+  font-family: monospace;
+}
+
+.redes ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none; /* Remove os pontos de lista */
+  padding: 0; /* Remove qualquer padding adicional */
+  margin: 0; /* Remove qualquer margin adicional */
+}
+
+.redes ul a {
+  display: block;
+  padding: 10px;
+}
+
+/* Estilo para as imagens das redes sociais */
+.instagram-icon, .youtube-icon {
+  width: 75px; /* Ajuste o tamanho para o que preferir */
+  height: 75px; /* Mantém a proporção */
+}
